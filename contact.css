@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    padding-top: 10vw;
+}
+
+.left{
+    height: 80%;
+    width: 40%;
+    padding-left: 3vw;
+    margin-left: 10vw;
+    background-color: rgb(215, 130, 44);
+}
+.left input{
+    width: 80%;
+    height: 2vw;
+    padding-left: 1vw;
+    border:none;
+}
+button{
+    margin-top: 1vw;
+    padding: .5vw 1vw;
+    border-radius: 20px;
+
+}
+
+.right{
+    height: 80%;
+    width: 60%;
+    /* background-color: rgb(0, 255, 102); */
+    padding-left: 1vw;
+}

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color:#010A1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    height: 60%;
+    width: 30%;
+    background-color: #1E355A;
+    text-align: center;
+    display: flex;
+    /* align-items: center;  */
+    justify-content: center;    
+    flex-direction: column;
+    color: aliceblue;
+    gap: 10px;
+}
+
+.name input{
+    height: 35px;
+    width: 40%;
+    padding-left: 1vw;
+    border: none;
+    margin-left: 1vw;
+    background-color:#2C4975;
+    color: aliceblue;
+    border: 1px solid #1a345b;
+}
+
+.name i{
+    font-size: 2vw;
+}
+
+.pnumber input{
+    height: 35px;
+    width: 40%;
+    padding-left: 1vw;
+    border: none;
+    margin-left: 1vw;
+    background-color:#2C4975;
+    color: aliceblue;
+    border: 1px solid #1a345b;
+}
+
+.pnumber i{
+    font-size: 2vw;
+}
+
+.cnumber input{
+    height: 35px;
+    width: 40%;
+    padding-left: 1vw;
+    border: none;
+    margin-left: 1vw;
+    background-color:#2C4975;
+    color: aliceblue;
+    border: 1px solid #1a345b;
+}
+
+.cnumber i{
+    font-size: 2vw;
+}
+
+.vname  input{
+    height: 35px;
+    width: 40%;
+    padding-left: 1vw;
+    border: none;
+    margin-left: 1vw;
+    background-color:#2C4975;
+    color: aliceblue;
+    border: 1px solid #1a345b;
+}
+
+.vname i{
+    font-size: 2vw;
+}
+
+.email input{
+    height: 35px;
+    width: 40%;
+    padding-left: 1vw;
+    border: none;
+    margin-left: 1vw;
+    background-color:#2C4975;
+    color: aliceblue;
+    border: 1px solid #1a345b;
+}
+
+.email i{
+    font-size: 2vw;
+}
+
+.password input{
+    height: 35px;
+    width: 40%;
+    padding-left: 1vw;
+    border: none;
+    margin-left: 1vw;
+    background-color:#2C4975;
+    color: white;
+    border: 1px solid #1a345b;
+}
+
+.password i{
+    font-size: 2vw;
+}
+
+button{
+    padding: .5vw 3vw;
+    font-size: 1vw;
+    color: white;
+    background-color: #4470B1;
+    border: none;
+    margin-left: 3vw;
+}
+
+@media (min-width: 0px) and (max-width: 673px) {
+    .form{
+        width: 90%;
+    }
+
+    .name i{
+        font-size: 6vw;
+    }
+
+
+    .name input{
+        padding-left: 3vw;
+        width: 50%;
+       
+    }
+    
+    
+    
+    .pnumber input{
+        padding-left: 3vw;
+        width: 50%;
+       
+    }
+    
+    .pnumber i{
+        font-size: 6vw;
+    }
+    
+    .cnumber input{
+        padding-left: 3vw;
+        width: 50%;
+        
+    }
+    
+    .cnumber i{
+        font-size: 6vw;
+    }
+    
+    .vname  input{
+       
+        padding-left: 3vw;
+        width: 50%;
+       
+    }
+    
+    .vname i{
+        font-size: 6vw;
+    }
+    
+    .email input{
+        padding-left: 3vw;
+        width: 50%;
+       
+    }
+    
+    .email i{
+        font-size: 6vw;
+    }
+    
+    .password input{
+        padding-left: 3vw;
+        width: 50%;
+       
+    }
+    
+    .password i{
+        font-size: 6vw;
+    }
+    
+    button{
+        padding: 2vw 8vw;
+        font-size: 3vw;
+        
+    }
+    
+
+}

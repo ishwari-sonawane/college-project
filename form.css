@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(download\ \(2\).jpeg); */
+    background-position: center;
+    background-size: cover;
+
+}
+
+.form{
+    height: 100%;
+    width: 30%;
+  /* background-image: url(download\ \(2\).jpeg); */
+  border: 1px solid rgb(16, 15, 15);
+  border-radius: 10px;
+}
+ /* .head{
+    height:20%;
+    width: 100%;
+    /* background-color: brown; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; 
+} */ */
+/* .logo{
+    height: 90%;
+    width: 60%;
+} */
+/* .logo img{
+    height: 100%;
+    width: 100%;
+} */
+.box{
+    border: 2px solid rgb(249, 248, 248);
+    border-radius: 10px;
+}
+.box h1{
+    padding-left: 8.5vw;
+    padding-top: .5vw;
+    font-weight: 300;
+    color: white;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+.name input{
+    width: 95%;
+    height: 5vh;
+    border: 1px solid black;
+    padding-left: .5vw;
+}
+
+.phone_no{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+.phone_no input{
+    width: 95%;
+    height: 5vh;
+    border: 1px solid rgb(12, 12, 12);
+    padding-left: .5vw;
+}
+
+.car_no{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+.car_no input{
+    width: 95%;
+    height: 5vh;
+    border: 1px solid rgb(9, 9, 9);
+    padding-left: .5vw;
+}
+
+.car_name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+.car_name input{
+    width: 95%;
+    height: 5vh;
+    border: 1px solid rgb(11, 11, 11);
+    padding-left: .5vw;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+.email input{
+    width: 95%;
+    height: 5vh;
+    border: 1px solid black;
+    padding-left: .5vw;
+}
+
+.pass{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+
+.pass input{
+    width: 95%;
+    height: 5vh;
+    border: 1px solid black;
+    padding-left: .5vw;
+}
+.text{
+    display: flex;
+
+}
+.text span{
+    color: skyblue;
+    /* padding-right: 2vw; */
+}
+.text p{
+    padding-right: 1.8vw;
+}
+
+.pass2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+
+.pass2 input{
+    width: 95%;
+    height: 5vh;
+    border: 1px solid black;
+}
+
+.button{
+    padding-left: 2vw;
+}
+
+button{
+    width: 95%;
+    height: 5vh;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+}
+
+p{
+    padding-left: 2vw;
+    font: size 20px;
+    font-weight: 200;
+}
+span{
+    color: skyblue;
+}
+p{
+    padding-top: .5vw;
+}
